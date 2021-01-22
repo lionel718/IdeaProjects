@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b306f2b-1c0d-484b-8847-fbe1add8977b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Simple Banking System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/Advanced system/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Advanced system/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Banking System/Advanced system/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Advanced system/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/Luhn algorithm/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Luhn algorithm/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/task/banking/banking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/task/banking/banking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
@@ -84,5 +81,17 @@
       <updated>1610978326212</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
