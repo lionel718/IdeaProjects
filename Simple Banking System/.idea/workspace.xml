@@ -5,15 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Banking System/Advanced system/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Advanced system/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Banking System/Advanced system/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Advanced system/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Card anatomy/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/I'm so lite/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Banking System/Luhn algorithm/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Luhn algorithm/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Banking System/Luhn algorithm/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/Luhn algorithm/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Banking System/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Banking System/task/banking/banking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/task/banking/banking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Banking System/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking System/task/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
