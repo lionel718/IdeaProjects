@@ -8,7 +8,7 @@ files:
 - name: tests.py
   visible: false
   text: |
-    from hstest.exceptions import WrongAnswerException
+    from hstest.exceptions import WrongAnswer
     from hstest.test_case import CheckResult
     from hstest.stage_test import StageTest
     from hstest.test_case import TestCase
@@ -26,16 +26,16 @@ files:
 
 
     def get_credentials(output: str):
-        number = re.findall(r'400000\d{10}', output, re.MULTILINE)
+        number = re.findall(r'^400000\d{10}$', output, re.MULTILINE)
         if not number:
-            raise WrongAnswerException('You are printing the card number incorrectly. '
+            raise WrongAnswer('You are printing the card number incorrectly. '
                                        'The card number should look like in the example: 400000DDDDDDDDDD,'
                                        ' where D is a digit.\nMake sure the card number is 16-digit length and '
                                        'you don\'t print any extra spaces at the end of the line!')
 
         PIN = re.findall(r'^\d{4}$', output, re.MULTILINE)
         if not PIN:
-            raise WrongAnswerException('You are printing the card PIN incorrectly. '
+            raise WrongAnswer('You are printing the card PIN incorrectly. '
                                        'The PIN should look like in the example: DDDD, where D is a digit.\n'
                                        'Make sure the PIN is 4-digit length and you don\'t print any extra spaces at the'
                                        ' end of the line!')
@@ -276,6 +276,12 @@ files:
     if __name__ == '__main__':
         BankingSystem('banking.banking').run_tests()
   learner_created: false
+- name: card.s3db
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/109/stages/593/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Apr 2021 09:21:08 UTC
+record: 3

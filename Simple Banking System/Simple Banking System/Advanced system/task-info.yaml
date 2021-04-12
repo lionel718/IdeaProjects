@@ -9,7 +9,7 @@ files:
   visible: false
   text: |
     from hstest.test_case import CheckResult
-    from hstest.stage_test import StageTest, WrongAnswerException
+    from hstest.stage_test import StageTest, WrongAnswer
     from hstest.test_case import TestCase
     from shutil import copy2
     import sqlite3
@@ -27,22 +27,22 @@ files:
 
 
     def get_credentials(output: str, count=0):
-        number = re.findall(r'400000\d{10}', output, re.MULTILINE)
+        number = re.findall(r'^400000\d{10}$', output, re.MULTILINE)
         if not number:
-            raise WrongAnswerException('You are printing the card number incorrectly. '
+            raise WrongAnswer('You are printing the card number incorrectly. '
                                        'The card number should look like in the example: 400000DDDDDDDDDD,'
                                        ' where D is a digit.\nMake sure the card number is 16-digit length and '
                                        'you don\'t print any extra spaces at the end of the line!')
 
         PIN = re.findall(r'^\d{4}$', output, re.MULTILINE)
         if not PIN:
-            raise WrongAnswerException('You are printing the card PIN incorrectly. '
+            raise WrongAnswer('You are printing the card PIN incorrectly. '
                                        'The PIN should look like in the example: DDDD, where D is a digit.\n'
                                        'Make sure the PIN is 4-digit length and you don\'t print any extra spaces at the'
                                        ' end of the line!')
         if count == 2:
             if len(number) == 1 or len(PIN) == 1:
-                raise WrongAnswerException(f'Expected 2 generated card credentials, but found {len(number)}')
+                raise WrongAnswer(f'Expected 2 generated card credentials, but found {len(number)}')
             return (number[0], PIN[0]), (number[1], PIN[1])
         else:
             return number[0], PIN[0]
@@ -420,5 +420,8 @@ files:
         BankingSystem('banking.banking').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/109/stages/594/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Apr 2021 10:38:35 UTC
+record: 4

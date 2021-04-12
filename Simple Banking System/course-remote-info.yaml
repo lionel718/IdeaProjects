@@ -3,20 +3,20 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/361994/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Fri, 22 Jan 2021 18:39:27 UTC
+update_date: Mon, 12 Apr 2021 08:59:37 UTC
 stages:
 - id: 591
   step: 9827
   is_completed: true
 - id: 592
   step: 9828
-  is_completed: false
+  is_completed: true
 - id: 593
   step: 9829
-  is_completed: false
+  is_completed: true
 - id: 594
   step: 9830
-  is_completed: false
+  is_completed: true
 topics:
   0:
   - title: Introduction to OOP
@@ -37,10 +37,6 @@ topics:
     theory_id: 5913
   - title: Program with numbers
     theory_id: 5872
-  - title: List
-    theory_id: 5979
-  - title: Dictionary
-    theory_id: 6481
   - title: Invoking a function
     theory_id: 5891
   - title: Declaring a function
@@ -83,10 +79,14 @@ topics:
     theory_id: 6224
   - title: String formatting
     theory_id: 6037
+  - title: List
+    theory_id: 5979
   - title: Boolean logic
     theory_id: 6025
   - title: Comparisons
     theory_id: 5920
+  - title: Dictionary
+    theory_id: 6481
   2:
   - title: Files
     theory_id: 6989
