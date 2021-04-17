@@ -166,9 +166,11 @@ def closeAccount(accountNumber):
     conn.commit()
     print("The account has been closed!")
 
+def initialise():
+    try:
+        initialiseDB()
+    except:
+        pass
 
-try:
-    initialiseDB()
-except:
-    pass
+initialise()
 menu()
